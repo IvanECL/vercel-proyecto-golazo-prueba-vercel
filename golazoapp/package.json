@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "expo start -c",
+    "build": "expo export:web",
+    "vercel-build": "expo export:web",
     "dev:web": "expo start -c --web",
     "dev:android": "expo start -c --android",
     "android": "expo start -c --android",
